@@ -8,12 +8,12 @@ import re
 
 app = Flask(__name__)
 
-TWITTER_API_KEY = 'aloo39bxAhDkV59xqTPULyJjS'
-TWITTER_API_SECRET = 'wtxejQeVKV0W8N5mYqMVY5fuQ7uPzTcV2io9ipEtZwsdZzQXy3'
-TWITTER_ACCESS_TOKEN = '1559083982599618560-TdyE8glVClfucYlxdk6UmqOhmaYLUn'
-TWITTER_ACCESS_TOKEN_SECRET = '8sUSqxveuzd6CcBMPrYAsUjG45NfAVCWsE3UmKAZJgasS'
-GEMINI_API_KEY = 'AIzaSyAH4nMhPaJyV0U4WCIPd5JPR0m5vd6RPz0'
-GEMINI_API_URL = 'https://gemini.api/endpoint'
+TWITTER_API_KEY = ''
+TWITTER_API_SECRET = ''
+TWITTER_ACCESS_TOKEN = ''
+TWITTER_ACCESS_TOKEN_SECRET = ''
+GEMINI_API_KEY = ''
+GEMINI_API_URL = ''
 
 def extract_text_from_image(image_url):
     try:
